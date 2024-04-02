@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Problem 4</h2>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction(x) {
+	if (x > 665) {
+		console.log("X is greater than 665");
+		return "X is greater than 665";
+	}
+	else if (x == 665){ 
+		console.log("X is equal to 665");
+		return "X is equal to 665"; 
+	}
+	else { 
+		console.log("X is less than 665");
+		return "X is less than 665"; 
+	}
+}
+
+document.getElementById("demo").innerHTML = myFunction(665);
+</script>
+
+</body>
+</html>
